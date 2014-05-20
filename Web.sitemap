@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+    <siteMapNode url="./Default.aspx" title="Home"  description="" roles="*"/>
+    <siteMapNode url="./contact.aspx" title="Contact"  description="" roles="*"/>
+    <siteMapNode url="./search.aspx" title="Materials"  description="" roles="*"/>
+    <siteMapNode url="./Login/login.aspx" title="Login"  description="" roles="*"/>
+    <siteMapNode url="./Librarians/viewmaterials.aspx" title="View Materials"  description="" roles="librarian" >
+      <siteMapNode url="./Librarians/addmaterial.aspx" title="Add Material"  description="" />
+      <siteMapNode url="./Librarians/materialsearch.aspx" title="Search Materials"  description="" />
+      <siteMapNode url="./Librarians/rental.aspx" title="Check-out Materials"  description="" />
+      <siteMapNode url="./Librarians/return.aspx" title="Check-in Materials"  description="" />
+    </siteMapNode>
+    <siteMapNode url="./Librarians/viewpatron.aspx" title="View Patrons"  description="" roles="librarian">
+      <siteMapNode url="./Librarians/addpatron.aspx" title="Add Patron"  description="" />
+      <siteMapNode url="./Librarians/patronsearch.aspx" title="Search Patrons"  description="" />
+    </siteMapNode>
+    <siteMapNode url="./Librarians/overduereport.aspx" title="View Overdue Report"  description="" roles="librarian"/>
+
+      <siteMapNode url="./Patrons/search.aspx" title="Search Materials"  description="" roles="patron"/>
+      <siteMapNode url="./Patrons/patronaccount.aspx" title="View Account"  description="" roles="patron"/>
+  </siteMapNode>
+    
+</siteMap>

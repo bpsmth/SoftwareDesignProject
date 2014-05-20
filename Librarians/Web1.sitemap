@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="."  description="">
+    <siteMapNode url="/Librarians/viewmaterials.aspx" title="View Materials"  description="">
+      <siteMapNode url="/Librarians/addmaterial.aspx" title="Add Material"  description="" />
+      <siteMapNode url="/Librarians/materialsearch.aspx" title="Search Materials"  description="" />
+      <siteMapNode url="/Librarians/rental.aspx" title="Check-out/Check-in Materials"  description="" />
+    </siteMapNode>
+    <siteMapNode url="/Librarians/viewpatron.aspx" title="View Patrons"  description="">
+      <siteMapNode url="/Librarians/addpatron.aspx" title="Add Patron"  description="" />
+      <siteMapNode url="/Librarians/patronsearch.aspx" title="Search Patrons"  description="" />
+    </siteMapNode>
+    <siteMapNode url="/Librarians/overduereport.aspx" title="View Overdue Report"  description="" />
+  </siteMapNode>
+</siteMap>
